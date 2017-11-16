@@ -1,0 +1,19 @@
+{
+    "name": "yann/orm",
+    "description": "orm maison",
+    "authors": [
+        {
+            "name": "yann",
+            "email": "yanndumas54230@gmail.com"
+        }
+    ],
+
+    "autoload": {
+
+        "psr-4":{
+          "query\\":"src/query",
+          "connection\\":"src/connection",
+            "model\\":"src/model"
+        }
+    }
+}
